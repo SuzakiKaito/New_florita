@@ -88,7 +88,7 @@ main {
       bottom: 0;
       left: 0;
       width: 100vw; // 横幅100vw（画面いっぱい）
-      height: 50px; // 高さ50px
+      height: 60px; // 高さ50px
       background: rgba(10, 10, 10, 0.3); // 背景色
       color: #fefefe; // 文字色（白）
       display: flex;
@@ -103,7 +103,7 @@ main {
   
       .name {
         font-size: 1.6rem; // 商品名
-        margin-top: 1.5rem; // 少し下に余白
+        // margin-bottom: 0.5rem; // 少し下に余白
       }
   
       .price {

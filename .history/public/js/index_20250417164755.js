@@ -2,19 +2,19 @@
 const slider = document.getElementById("slider");
 let slides = Array.from(document.querySelectorAll(".slide"));
 let currentIndex = 0;
-const threshold = 70; // スワイプとして認識する最小距離
+const threshold = 50; // スワイプとして認識する最小距離
 let startX = 0;
 let startY = 0;
 
 // 画像＋商品情報を定義（画像パス・商品名・価格）
 const products = [
-  { image: "./img/slider1.jpg", name: "ワンピースA", price: "¥3,000" },
-  { image: "./img/slider2.jpg", name: "スニーカー", price: "¥2,200" },
-  { image: "./img/slider3.jpg", name: "口紅", price: "¥3,500" },
-  { image: "./img/slider4.jpg", name: "ワンピースB", price: "¥2,800" },
-  { image: "./img/slider5.jpg", name: "ハイヒール", price: "¥3,100" },
-  { image: "./img/slider6.jpg", name: "ワンピースC", price: "¥2,600" },
-  { image: "./img/slider7.jpg", name: "ショルダーバッグ", price: "¥3,300" }
+  { image: "./img/slider1.jpg", name: "ローズブーケ", price: "¥3,000" },
+  { image: "./img/slider2.jpg", name: "ラベンダー", price: "¥2,200" },
+  { image: "./img/slider3.jpg", name: "ガーベラミックス", price: "¥3,500" },
+  { image: "./img/slider4.jpg", name: "サンフラワー", price: "¥2,800" },
+  { image: "./img/slider5.jpg", name: "チューリップ", price: "¥3,100" },
+  { image: "./img/slider6.jpg", name: "カーネーション", price: "¥2,600" },
+  { image: "./img/slider7.jpg", name: "アネモネ", price: "¥3,300" }
 ];
 
 // 商品リストをランダムに並び替える関数（Fisher-Yatesアルゴリズム）

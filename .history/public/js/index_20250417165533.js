@@ -2,7 +2,7 @@
 const slider = document.getElementById("slider");
 let slides = Array.from(document.querySelectorAll(".slide"));
 let currentIndex = 0;
-const threshold = 70; // スワイプとして認識する最小距離
+const threshold = 50; // スワイプとして認識する最小距離
 let startX = 0;
 let startY = 0;
 

@@ -1,4 +1,5 @@
 $main-color:#e5cdc5;
+$accent-color:#d1b2a8;
 
 html{
   font-size: 62.5%;
@@ -20,7 +21,7 @@ body{
 header{
   width: 100%;
   height: 60px;
-  background:$main-color;
+  background:$accent-color;
   position: relative;
   h2{
     color: #eee;

@@ -1,5 +1,5 @@
 $main-color:#e5cdc5;
-$accent-color:#d1b2a8;
+$accent-color:#a5918a;
 
 html{
   font-size: 62.5%;
@@ -51,7 +51,7 @@ header{
 }
 main{
   width: 100%;
-  height: 668px;
+  height: 608px;
   .merchandiseContent{
     width: 100%;
     display: flex;
@@ -70,6 +70,7 @@ main{
       width: 35%;
       // border: #000 1px solid;
       h2{
+        color: $accent-color;
         font-size: 18px;
       }
       p{
@@ -77,11 +78,36 @@ main{
       }
     }
   }
+  .explanationContent{
+    width: 90%;
+    margin: 30px auto 0;
+    h2{
+      font-size: 20px;
+      color: $accent-color;
+    }
+    p{
+      font-size: 14px;
+    }
+    .backButton{
+      width: 100%;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      margin: 100px auto 0;
+      a{
+        width: 120px;
+        border: $accent-color 4px solid ;
+        text-decoration: none;
+        color: #000;
+        border-radius: 4px;
+      }
+    }
+  }
 }
 footer{
   // border: 2px solid blue;
   width: 100%;
-  height: 100px;
+  height: 160px;
   display: flex;
   justify-content: center;
   align-items: center;

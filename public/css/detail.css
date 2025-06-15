@@ -93,9 +93,13 @@ main .explanationContent .backButton {
   justify-content: center;
   margin: 100px auto 0;
 }
-main .explanationContent .backButton button {
+main .explanationContent .backButton a {
   width: 120px;
   border: #a5918a 4px solid;
+  text-decoration: none;
+  color: #000;
+  line-height: 30px;
+  text-align: center;
   border-radius: 4px;
 }
 

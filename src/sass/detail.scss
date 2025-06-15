@@ -94,9 +94,13 @@ main{
       display: flex;
       justify-content: center;
       margin: 100px auto 0;
-      button{
+      a{
         width: 120px;
         border: $accent-color 4px solid ;
+        text-decoration: none;
+        color: #000;
+        line-height: 30px;
+        text-align: center;
         border-radius: 4px;
       }
     }
